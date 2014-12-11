@@ -1,0 +1,21 @@
+{
+  "name": "helloworld-blti",
+  "description": "BasicLTI HelloWorld Tool",
+  "version": "0.0.1",
+  "author": {
+    "name": "Nicolaas Matthijs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nicolaasmatthijs/helloworld-blti.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicolaasmatthijs/helloworld-blti/issues"
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
