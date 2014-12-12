@@ -13,7 +13,10 @@
     "url": "https://github.com/nicolaasmatthijs/helloworld-blti/issues"
   },
   "dependencies": {
-    "express": "latest"
+  	"body-parser": "latest",
+    "express": "latest",
+    "ims-lti":"latest",
+    "URIjs": "latest"
   },
   "engines": {
     "node": ">=0.10"
