@@ -6,6 +6,8 @@ var URI = require('URIjs');
 var app = express();
 app.use(bodyParser.urlencoded({'extended': false}));
 
+app.use(express.static(__dirname + '/assets'));
+
 var server = app.listen(3000, function () {
 
     var host = server.address().address
